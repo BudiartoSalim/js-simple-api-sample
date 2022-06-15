@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Arona",
+    "power": 10000
+  },
+  {
+    "id": 2,
+    "name": "Rudeus",
+    "power": 5000
+  },
+  {
+    "id": 3,
+    "name": "Vampy",
+    "power": 15000
+  },
+  {
+    "id": 4,
+    "name": "Orsted",
+    "power": 99999
+  },
+  {
+    "id": 5,
+    "name": "Pepe",
+    "power": 1
+  },
+  {
+    "id": 6,
+    "name": "BANK JAGO",
+    "power": 2
+  }
+]
