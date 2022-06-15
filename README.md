@@ -6,6 +6,7 @@ Uses Text File as Data store to simplify the concept and have the app easy to us
 Usage of JS built-in methods are minimized to reduce complexity for people new to JS.
 
 # Running the app
+- Make sure NodeJS is installed in your computer
 - Before running the app, run the command: "npm i"
 - Type the command "npx nodemon index.js" in CLI to start
 - To terminate, close the CLI or press ctrl+C on CLI
