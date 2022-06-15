@@ -16,7 +16,6 @@ app.get('/chara/:id', function (req, res) {
   res.json(output)
 })
 
-
 app.post('/chara', function (req, res) {
   const payload = req.body
   console.log(payload)
@@ -27,6 +26,7 @@ app.post('/chara', function (req, res) {
   const output = Database.addNewCharacter(payload.name, payload.power)
   res.json({ message: "Added new character!", added_character: output })
 })
+
 app.put('/chara/:id', function (req, res) {
   const name = req.body.name
   const power = req.body.power
