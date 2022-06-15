@@ -1,10 +1,8 @@
 const express = require('express')
-const cors = require('cors')
 const app = express()
 const PORT = 3000
 const Database = require('./database')
 
-// app.use(cors())
 app.use(express.json())
 
 app.get('/chara', function (req, res) {
